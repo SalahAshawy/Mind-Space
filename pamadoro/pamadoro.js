@@ -141,7 +141,7 @@ else if(teqnique=="small"){
                    if(--duration < 0){
                     document.getElementById('audio').play();
                     clearInterval(countDown2);
-                    document.body.style.backgroundImage="url('../imgs/compute-ea4c57a4.png')";
+                   // document.body.style.backgroundImage="url('../imgs/compute-ea4c57a4.png')";
                      startBtn.innerHTML= "Start";
                 }
               }
