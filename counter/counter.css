@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     background-image: url("../imgs/pexels-felix-mittermeier-956999.jpg"); 
+    background-size:100%;
+}
+.container{
+    width: 800px;
+    margin: 40px auto 0;
+    
+}
+
+.add-titel{
+    width: 97%;
+    padding: 15px;
+    position: relative;
+    margin-left: 13px;
+    background-color: #121212;
+    opacity: 75%;
+}
+
+
+
+.add-titel input{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: #777;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    width: calc(100% - 15px);
+    color:white;
+}
+.add-titel input:focus{
+    outline: none;
+}
+.plus{
+    position: absolute;
+    height: 75px;
+    margin-top: -15px;
+    margin-left: 2px;
+    padding: 13px;
+    width: 74px;
+    line-height: 51px;
+    right: 0px;
+    background-color: #121212;
+    border-radius: 1%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color: #888;
+
+    
+}
+.plus:hover{
+    transform: rotate(180deg);
+} 
+.titels{
+    padding: 15px;
+    background-color: none;
+}
+.no-titels-massage{
+    color: #777;
+    background-color: #121212;
+}
+.titels >span{
+   
+    display: block;
+    background-color:#121212;
+    opacity: 75%;
+    padding: 10px;
+
+}
+.titels >span{ 
+    margin-bottom: 27px;
+    height: 62px;
+    /* border-bottom: #888 solid 2px; */
+  
+  
+}
+
+
+.titels span .delet{
+    float: right;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.titels span .delet:hover{
+   background-color:rgb(199, 45, 45) ; ; 
+}
+.all>span{
+    font-size: 12px;
+    padding:20px ;
+    text-align: center;
+    padding: 8px 20px;
+}
+.delet-all{
+    cursor: pointer;
+    margin-right: 15px;
+    float: right;
+    background-color:#222222;
+    border-radius: 5px;
+    color: white;
+     display: none; 
+     font-weight: bold;
+}
+.delet-all:hover{
+    background-color: rgb(199, 45, 45) ;
+}
+.task-box{
+    font-weight: 100;
+    font-size: 27px;
+    color: aliceblue;
+    display: block;
+
+}
+.num{
+    margin-left: -1px;
+    float: right;
+    width: 57px;
+    height: 64px;
+    background-color: #222222;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 18px 23px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-right: 11px;
+}
+.inc{
+    float: right;
+    background-color:#222222;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 10px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 13px;
+    height: 22px;
+}
+.inc:hover{
+  background:  rgb(50, 199, 45);
+}
+.dec{
+    float: right;
+    background-color:#222222;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 10px;
+    cursor: pointer;
+    margin-top: 8px;
+    height: 22px;
+}
+.dec:hover{
+    background-color:rgb(199, 45, 45) ;
+}
+
+@media only screen and (max-width:650px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image:url("../imgs/pexels-felix-mittermeier-956999.jpg") ;
+        background-size: 360px 650px;
+        background-attachment: fixed; 
+         overflow-x: hidden;
+        
+    }
+    .container{
+        width: 100%;
+        
+       
+   }
+    .plus{
+    
+            position: absolute;
+            height: 50px;    
+            width: 50px;
+            line-height: 50px ; 
+            right: 12px;
+            background-color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 40px;
+            font-weight:400;
+            cursor: pointer;
+            transition: transform 0.3s ;
+            color: #009668;
+            left: 260px;
+            top: -2px;
+    
+
+   
+} 
+.plus{
+    
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+       display: none;
+    
+}
+.add-titel{
+    margin-top: 4px;
+    height: 66px;
+    background: none;
+}
+   .add-titel input{
+    height: 40px;
+   }
+   .task-box{
+    font-size: 20px;
+    width: 107%;
+    height: auto;
+    overflow-wrap: break-word;
+    margin-left: -10px;
+    
+   }
+   .task-box >span{
+    width: 25px;
+    height: 25px;
+    
+   
+   }
+ .all>span{
+    font-size: 10px;
+    padding:10px ;
+    text-align: center;
+    padding: 6px 13px;
+ }
+ 
+
+
+.add-titel input{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: rgba(255,255,255, 0.3);
+    border: solid 2px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 112%;
+    color:white;
+    margin-left: -26px;
+}
+.titels span .delet{
+    position: absolute;
+    /* float: right; */
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 4px 5px;
+    cursor: pointer;
+    margin-right: -91px;
+    margin-top: 13px;
+    width: 16px;
+    height: 18px;
+    left: 320px;
+    background: #121212;
+}
+
+
+
+.inc{
+    margin-top: -35px;
+    margin-right: -7px;
+    width: 30px;
+    height: 1px;
+    position:absolute;
+    left: 263px;
+    padding: 4px 8px;
+    
+}
+.dec:hover,.inc:hover{
+    background-color:#222222;
+}
+ .dec{
+    margin-right:-64px ;
+    margin-top: 2px;
+    position:absolute;
+    left: 276px;
+ }
+ .titels .num{
+    margin-left: -1px;
+    float: right;
+    width: 25px;
+    height: 40px;
+    background-color: #222222;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 12px 0px;
+    cursor: pointer;
+    margin-top: -24px;
+    margin-right: 38px;
+ }
+ .task-box .task-text{
+    overflow-wrap: break-word;
+    font-size: 17px;
+    display: block;
+    width: 251px;
+}
+.delet-all{
+    margin-right: 0px;
+    position: absolute;
+    left: 280px;
+}
+
+}

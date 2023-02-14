@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("../imgs/compute-ea4c57a4.png") ;
+}
+/* Media Qury */
+
+
+
+@media only screen and (max-width:650px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image:url("../imgs/pexels-angelo-duranti-3512848.jpg") ;
+        background-size: 360px 650px;
+        background-attachment: fixed; 
+         overflow-x: hidden;
+         overflow-y: hidden;
+        
+    }
+    .select-box{
+        margin-left: 200px;
+        height: 29px;
+        background: #888;
+        color: #0d0d3a;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .container{
+        padding: 0px;
+    width: 17%;
+    /* margin: 164px; */
+    margin-top: 229px;
+    margin-left: 154px;
+    opacity:80%;
+    }
+    .timer{
+        color: #888;
+        justify-content: center;
+        width: 241px;
+        height: 111px;
+        background-color: black;
+        display: flex;
+        padding: 38px;
+        font-size: 29px;
+        font-weight: 600;
+        border-radius: 19px;
+        margin-left: -140px;
+        position: absolute;
+        margin: -1px;
+        margin-top: -113px;
+        margin-left: -114px;
+        margin-right: -1px;
+    }
+    .start:hover{
+        background-color: #888;
+        color: #0e1111;
+        
+    }
+    
+    .start{
+        width: 222px;
+        border-radius: 15px;
+        height: 53px;
+        padding: 10px;
+        background: black;
+        color: #888;
+        font-size: 18px;
+        font-weight: 600;
+        margin: auto;
+        margin-top: 54px;
+        cursor: pointer;
+        margin-left: -106px;
+    }
+    .start:hover{
+        background:black ;
+        color: #888;
+    }
+    .start-new{
+        display:none;
+        margin: 0px;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: -73px;
+        margin-right: 0px;
+        padding: 9px;
+        width: 166px;
+        border-radius: 17px;
+        background: #888
+        }
+    .start-new:hover{
+        background-color: green;
+    }
+}
+@media only screen and (min-width:600px){
+    .container {
+        margin-top: 226px;
+        width: 800px;
+        margin-left: 503px;
+    }
+    .start {
+        width: 438px;
+        border-radius: 15px;
+        height: 61px;
+        padding: 10px;
+        background: black;
+        color: #888;
+        font-size: 24px;
+        font-weight: 800;
+        margin: auto;
+        margin-top: 24px;
+        cursor: pointer;
+    }
+    .start:hover{
+        background-color: #888;
+        color: #0e1111;
+        
+    }
+    .timer {
+        color: #888;
+        justify-content: center;
+        width: 438px;
+        height: 139px;
+        background-color: black;
+        display: flex;
+        padding: 32px;
+        font-size: 49px;
+        font-weight: 800;
+        border-radius: 19px;
+    }
+    .start-new{
+    display: none;    
+    margin: 36px;
+    padding: 9px;
+    width: 166px;
+    border-radius: 17px;
+    background: #888;
+    }
+    .start-new:hover{
+        background-color: green;
+    }
+    .select-box{
+        margin-left: 1232px;
+    margin-top: 14px;
+    height: 33px;
+    width: 158px;
+    background: #888;
+    color: #0d0d3a;
+    font-size: 13px;
+    font-weight: 400;
+    }
+}

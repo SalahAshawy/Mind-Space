@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     background: url("../imgs/pexels-philippe-donn-1169754.jpg");  
+    background-size: 100% ;
+} 
+.container{
+    width: 800px;
+    margin: 40px auto 0;
+    background-color: none;
+}
+
+.add-titel{
+    width: 97%;
+    padding: 15px;
+    position: relative;
+    margin-left: 13px;
+    background-color: none;
+}
+
+
+
+.add-titel input{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: #121212;
+    border:#777 solid 2px;
+    font-size: 20px;
+    font-weight: 400;
+    width: calc(100% - 15px);
+    color:white;
+}
+
+
+.plus{
+    position: absolute;
+    height: 75px;
+    margin-top: 0px;
+    left: 788px;
+    margin-left: -42px;
+    padding: 13px;
+    width: 74px;
+    line-height: 51px;
+    right: 0px;
+    background-color: #121212;
+    border-radius: 1%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color: #888
+}
+.note-body{
+    width: 732px;
+    height: 111px;
+    background: #121212;
+    color:white;
+    font-size:20px;
+    padding: 10px 15px;
+   
+}
+.plus:hover{
+    transform: rotate(180deg);
+} 
+.titels{
+    padding: 15px;
+    background-color: none;
+}
+.no-titels-massage{
+    color: #777;
+    background-color: #121212;
+}
+
+.titels >span{ 
+    margin-bottom: 27px;
+    height: auto;
+    margin-left: -2px;
+    width: 776px;
+    display: block;
+    background-color:rgb(36, 35, 35,0.8);;
+    padding: 10px;
+    overflow-wrap:break-word ;
+    font-size: 22px;
+
+    /* border-bottom: #888 solid 2px; */
+  
+  
+}
+.note-body-content{
+    font-size: 18px;
+}
+
+.titels span .delet{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 3px;
+    cursor: pointer;
+    margin-left: 737px;
+    display: block;
+    margin-top: -21px;
+    opacity: 65%;
+    width:23px;
+}
+.titels span .delet:hover{
+   background-color:rgb(199, 45, 45) ;
+   opacity:100%;
+}
+.note-titel-cotent{
+    font-size: 24px;
+    display: block;
+    font-weight: 600;
+}
+.all>span{
+    font-size: 12px;
+    padding:20px ;
+    text-align: center;
+    padding: 8px 20px;
+}
+.delet-all{
+    cursor: pointer;
+    margin-right: 15px;
+    float: right;
+    background-color:#222222;
+    border-radius: 5px;
+    color: white;
+     display: none; 
+     font-weight: bold;
+}
+.delet-all:hover{
+    background-color: rgb(199, 45, 45) ;
+}
+.task-box{
+    font-weight: 100;
+    font-size: 27px;
+    color: aliceblue;
+    display: block;
+
+}
+.num{
+    margin-left: -1px;
+    float: right;
+    width: 57px;
+    height: 61px;
+    background-color: #222222;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 18px 23px;
+    cursor: pointer;
+    margin-top: -9px;
+    margin-right: 11px;
+}
+.inc{
+    float: right;
+    background-color:#222222;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 10px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 13px;
+    height: 22px;
+}
+.inc:hover{
+  background:  rgb(50, 199, 45);
+}
+.dec{
+    float: right;
+    background-color:#222222;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 10px;
+    cursor: pointer;
+    margin-top: 8px;
+    height: 22px;
+}
+.dec:hover{
+    background-color:rgb(199, 45, 45) ;
+}
+@media only screen and (max-width:650px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        
+       
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image:url("../imgs/pexels-felix-mittermeier-956999.jpg") ;
+        background-size: 360px 1000px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+       
+       
+    }
+    .container{
+        width: 100%;
+        
+    }
+   .add-titel input{
+    width: 268px;
+    margin-left: -24px;
+    font-size: 17px;
+    height: 43px;
+   }
+   .add-titel .note-body{
+    width: 268px;
+    height: 80px;
+    margin-left: -24px;
+    font-size: 13px;
+   }
+   .plus {
+    position: absolute;
+    height: 29px;
+    margin-top: -3px;
+    left: 235px;
+    margin-left: -1px;
+    padding: -1px;
+    padding-top: -13px;
+    width: 24px;
+    line-height: 0px;
+    padding-inline-start: 4px;
+    right: 0px;
+    background-color: #121212;
+    border-radius: 1%;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color: #888;
+}
+.titels >span {
+    margin-bottom: 8px;
+    margin-left: 1px;
+    height: auto;
+    margin-left: -17px;
+    width: 278px;
+    display: block;
+    background-color: rgb(36, 35, 35,0.8);
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-size: 22px;
+    /* border-bottom: #888 solid 2px; */
+}
+.note-titel-cotent {
+    font-size: 19px;
+    
+    display: block;
+    font-weight: 800;
+}
+.note-body-content {
+    font-size: 15px;
+    white-space: pre-wrap;
+   
+}
+.all>span {
+    font-size: 9px;
+    padding: 20px;
+    text-align: center;
+    padding: 8px 20px;
+}
+.delet-all {
+    cursor: pointer;
+    margin-top: -12px;
+    margin-right: 40px;
+    float: right;
+    background-color: #222222;
+    border-radius: 5px;
+    color: white;
+    width: 84px;
+    height: 28px;
+    font-family: sans-serif;
+    display: none;
+    font-weight: bold;
+}
+.titels span .delet {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 3px;
+    cursor: pointer;
+    margin-left: 241px;
+    display: block;
+    margin-top: -13px;
+    opacity: 65%;
+    width: 23px;
+}
+.add-titel{
+    width: 80%;
+    margin: 0px;
+    margin-left: 41px;
+}
+.titels{
+    margin-left: 28px;
+}
+
+}
